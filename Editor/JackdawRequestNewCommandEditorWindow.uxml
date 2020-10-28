@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement>
+        <ui:Label text="Issue new command" style="font-size: 24px; -unity-text-align: middle-center;" />
+        <uie:EnumField label="Command type" value="Center" name="RequestTypeSelector" />
+    </ui:VisualElement>
+    <ui:VisualElement name="testParametersPanel" style="margin-top: 10px;">
+        <ui:Label text="Test parameters" />
+        <uie:EnumField label="Test Type" value="Center" name="testType" />
+    </ui:VisualElement>
+    <ui:VisualElement name="buildParametersPanel">
+        <ui:Label text="Build parameters" />
+        <ui:IMGUIContainer name="buildIMGUI" />
+    </ui:VisualElement>
+    <ui:VisualElement name="publishParametersPanel">
+        <ui:Label text="Publish parameters" name="vcsParametersPanel" />
+    </ui:VisualElement>
+    <ui:VisualElement name="vcsParametersPanel" />
+    <ui:Button text="Add command to queue" name="addToQueueButton" />
+</ui:UXML>

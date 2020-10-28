@@ -1,0 +1,19 @@
+{
+    "name": "Nest.Jackdaw.Editor",
+    "references": [
+        "GUID:22c03d8976c1e8d488dcc23177254848",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:83fafbf8e3cfcb04e9f884b1b059fed8"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <uie:Toolbar style="flex-direction: row; justify-content: space-between; align-items: stretch;">
+        <uie:ToolbarButton text="Options" name="toolbarOpenPref" style="flex-direction: column; left: auto; right: -1px; align-items: auto;" />
+        <uie:ToolbarSearchField focusable="True" />
+    </uie:Toolbar>
+    <uie:ProgressBar title="my-progress" style="position: absolute; bottom: 0; right: 0; left: 0;" />
+    <ui:VisualElement>
+        <ui:Label text="Command Builder" style="font-size: 25px; -unity-font-style: bold; -unity-text-align: upper-center;" />
+        <ui:VisualElement name="commandListPanel" />
+        <ui:Button text="Add a command" name="openNewCommandWindowButton" style="flex-direction: row;" />
+        <ui:Button text="Send commands" name="sendCommandListButton" />
+    </ui:VisualElement>
+</ui:UXML>

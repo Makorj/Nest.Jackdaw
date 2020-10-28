@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="ConnectWindowPanel" style="background-color: rgba(0, 0, 0, 0); height: 100%; width: 100%; flex-grow: 10; flex-shrink: 0;">
+        <Style src="Jackdaw.uss" />
+        <ui:Label text="Jackdaw for Unity" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 35px; background-color: rgba(0, 0, 0, 0); -unity-background-image-tint-color: rgb(221, 221, 221); margin-bottom: 25px; margin-top: 25px;" />
+        <ui:TextField picking-mode="Ignore" label="Login" text="fvain" name="loginField" tabindex="1" style="font-size: 20px; -unity-text-align: upper-center; margin-bottom: 2%; margin-right: 5%; color: rgb(217, 217, 217);" />
+        <ui:TextField picking-mode="Ignore" label="Password" value="filler text" text="filler text" password="true" name="passwordField" tabindex="0" mask-character="•" style="font-size: 20px; -unity-text-align: upper-center; margin-right: 5%;" />
+        <ui:Toggle label="Remember me" name="rememberMeToggle" style="flex-direction: row; align-items: auto; justify-content: flex-end; margin-left: 60px; margin-top: 5px;" />
+        <ui:Toggle label="Auto login in" name="autoLoginToggle" style="flex-direction: row; align-items: flex-end; justify-content: center; margin-left: 60px; margin-top: 5px;" />
+        <ui:Button text="Connect" name="connectButton" tabindex="-1" focusable="false" style="margin-left: 50px; margin-right: 50px; bottom: auto; position: relative; visibility: visible; margin-top: 5px; margin-bottom: 5px; height: 15%; -unity-font-style: bold; font-size: 22px; right: auto; left: auto;" />
+    </ui:VisualElement>
+</ui:UXML>

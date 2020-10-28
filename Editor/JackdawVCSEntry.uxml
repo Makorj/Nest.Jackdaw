@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement style="border-bottom-width: 1px; border-left-color: rgba(130, 130, 130, 255); border-right-color: rgba(130, 130, 130, 255); border-top-color: rgba(130, 130, 130, 255); border-bottom-color: rgba(130, 130, 130, 255); margin-bottom: 2px; padding-bottom: 2px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px;">
+        <Style src="Jackdaw.uss" />
+        <uie:IntegerField label="Revision" value="52" />
+        <ui:TextField picking-mode="Ignore" label="Auteur" value="filler text" text="fvain" readonly="true" style="-unity-text-align: upper-left;" />
+        <ui:TextField picking-mode="Ignore" label="Commentaires" value="zefzefzefzefzef" text="- Fixed error orphan eating to much candy&#10;- Fixed main menu breaking on October&#10;- Added easter egg" readonly="true" multiline="true" style="flex-direction: column; height: auto; -unity-text-align: upper-left; white-space: normal;" />
+    </ui:VisualElement>
+</ui:UXML>
