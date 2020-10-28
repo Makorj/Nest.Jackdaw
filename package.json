@@ -10,8 +10,8 @@
       "com.unity.editorcoroutines": "1.0.0"
     },
     "gitDependencies": {
-      "com.studioblackflag.nest.blackbird": "https://github.com/Makorj/Nest.BlackBird.Unity#v0.1.0-alpha",
-      "com.studioblackflag.nest.builder" : "https://github.com/Makorj/Nest.Builder#v0.1.0-alpha"
+      "com.studioblackflag.nest.blackbird": "https://github.com/Makorj/Nest.BlackBird.Unity#v0.1.0-alpha2",
+      "com.studioblackflag.nest.builder" : "https://github.com/Makorj/Nest.Builder#v0.1.0-alpha2"
     },
     "keywords": [
       "tool",
