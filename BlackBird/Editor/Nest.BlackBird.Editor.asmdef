@@ -1,10 +1,6 @@
 {
-    "name": "Nest.Jackdaw.Editor",
-    "references": [
-        "Unity.EditorCoroutines.Editor",
-        "Nest.BlackBird.Editor",
-        "Nest.Builder.Editor"
-    ],
+    "name": "Nest.BlackBird.Editor",
+    "references": [],
     "includePlatforms": [
         "Editor"
     ],

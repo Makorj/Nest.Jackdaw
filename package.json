@@ -1,6 +1,6 @@
 {
     "name": "com.studioblackflag.nest.jackdaw",
-    "version": "0.1.0-alpha2",
+    "version": "0.1.1-alpha",
     "displayName": "Jackdaw",
     "description": "This is the Nest user interface for unity",
     "unity": "2019.4",
@@ -8,10 +8,6 @@
     "dependencies": {
       "com.unity.modules.uielements": "1.0.0",
       "com.unity.editorcoroutines": "1.0.0"
-    },
-    "gitDependencies": {
-      "com.studioblackflag.nest.blackbird": "https://github.com/Makorj/Nest.BlackBird.Unity#0.1.0-alpha3",
-      "com.studioblackflag.nest.builder" : "https://github.com/Makorj/Nest.Builder#0.1.0-alpha3"
     },
     "keywords": [
       "tool",
